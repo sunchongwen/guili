@@ -193,7 +193,7 @@ li {
   transform: rotate(-450deg) translateX(-0.8rem);
 }
 
-.landing-text {
+.{
   font-family: "Open Sans", sans-serif;
   position: absolute;
   top: 50%;
@@ -642,7 +642,7 @@ input[type="submit"]:hover {
     font-size: 6px;
   }
   .landing-text h1 {
-    font-size: 6rem;
+    font-size: 4rem;
   }
 
   .nav-link {
