@@ -639,12 +639,26 @@ input[type="submit"]:hover {
   }
 }
 @media screen and (max-width: 600px) {
+  menu-toggler {
+    position: fixed;
+    top: 8rem;
+    right: 10rem;
+    width: 6rem;
+    height: 6rem;
+  }
   /* 最直接就是换font-size 这样等比例缩小 */
+  .nav-link {
+    font-size: 3rem;
+  }
+  li {
+    margin: 0 2rem;
+    padding-bottom: 4rem;
+  }
   html {
-    font-size: 6px;
+    font-size: 4px;
   }
   .landing-text h1 {
-    font-size: 3.5rem;
+    font-size: 6rem;
   }
 
   .nav-link {
