@@ -431,40 +431,19 @@ li {
 .contact {
   background-color: #221e3f;
 }
-form {
+.guili-contact {
   width: 70%;
   margin: 0 auto;
-}
-
-form label {
+  font-weight: 100;
   font-size: 1.5rem;
-}
-
-input,
-select,
-textarea {
-  width: 100%;
-  padding: 1rem;
-  margin-bottom: 5px;
-  outline-color: #fd57df;
-}
-input[type="submit"] {
-  width: initial;
-  background-color: #fd57bf;
-  color: #eee;
-  padding: 1rem 2rem;
-  border-radius: 0.8rem;
-  cursor: pointer;
-  transition: background-color 650ms;
-}
-input[type="submit"]:hover {
-  color: #221e3f;
-  background-color: #ffe838;
+  /* position: relative; */
+  text-align: center;
 }
 /*End contact*/
 
 /*Start footer*/
 .copyright {
+  margin-top: 15rem;
   width: 100%;
   text-align: center;
   background-color: #16162d;
@@ -492,12 +471,11 @@ input[type="submit"]:hover {
 .copyright p {
   font-size: 1.4rem;
 }
-.guili-contact {
-  font-size: 2rem;
-  text-align: center;
-  font-weight: 100;
-  padding-top: -1rem;
-  padding-bottom: 6rem;
+.guili-contact p {
+  padding-bottom: 2rem;
+}
+iframe {
+  border-radius: 3rem;
 }
 /*End footer*/
 
@@ -639,12 +617,16 @@ input[type="submit"]:hover {
   }
 }
 @media screen and (max-width: 600px) {
-  menu-toggler {
+  .section-heading:last-child {
+    text-align: center;
+    margin-bottom: 3rem;
+  }
+  .menu-toggler {
     position: fixed;
-    top: 8rem;
-    right: 10rem;
-    width: 6rem;
-    height: 6rem;
+    top: 5rem;
+    right: 5rem;
+    width: 4rem;
+    height: 4rem;
   }
   /* 最直接就是换font-size 这样等比例缩小 */
   .nav-link {
@@ -691,12 +673,7 @@ input[type="submit"]:hover {
   .timeline .date:before {
     font-size: 1.4rem;
   }
-  form {
-    width: 100%;
-  }
-  up {
-    right: 2rem;
-  }
+
   /* .office-left {
     padding-left: 9rem;
   } */
