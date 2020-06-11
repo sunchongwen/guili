@@ -642,7 +642,9 @@ iframe {
   .landing-text h1 {
     font-size: 6rem;
   }
-
+.landing-text h6 {
+    font-size: 3.5rem;
+  }
   .nav-link {
     font-size: 3.5rem;
   }
