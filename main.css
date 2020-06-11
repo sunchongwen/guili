@@ -193,7 +193,7 @@ li {
   transform: rotate(-450deg) translateX(-0.8rem);
 }
 
-.{
+.landing-text {
   font-family: "Open Sans", sans-serif;
   position: absolute;
   top: 50%;
@@ -496,6 +496,8 @@ input[type="submit"]:hover {
   font-size: 2rem;
   text-align: center;
   font-weight: 100;
+  padding-top: -1rem;
+  padding-bottom: 6rem;
 }
 /*End footer*/
 
@@ -578,8 +580,8 @@ input[type="submit"]:hover {
 @media screen and (max-width: 768px) {
   .menu-toggler {
     position: fixed;
-    top: 10rem;
-    right: 10rem;
+    top: 5rem;
+    right: 5rem;
     width: 3rem;
     height: 3rem;
   }
@@ -589,10 +591,10 @@ input[type="submit"]:hover {
     background-size: cover;
   }
   .landing-text h1 {
-    font-size: 5rem;
+    font-size: 6rem;
   }
   .landing-text h6 {
-    font-size: 1.5rem;
+    font-size: 1rem;
     font-weight: 300;
     color: #eee;
     opacity: 0.6;
@@ -642,7 +644,7 @@ input[type="submit"]:hover {
     font-size: 6px;
   }
   .landing-text h1 {
-    font-size: 4rem;
+    font-size: 3.5rem;
   }
 
   .nav-link {
